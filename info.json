@@ -1,0 +1,11 @@
+
+{
+  "name": "Local",
+  "version": "0.0.14",
+  "title": "Local",
+  "author": "Ranakastrasz",
+  "contact": "~",
+  "homepage": "",
+  "description": "Local Mod for personal Use",
+  "dependencies": ["base"]
+}

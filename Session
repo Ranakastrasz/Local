@@ -1,0 +1,15 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="7">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Lua" encoding="-1" filename="C:\Users\Ranakastrasz\Desktop\Factorio_0.12.0 - Modding\mods\Local_0.0.13\data.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="414" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\Ranakastrasz\Desktop\Factorio_0.12.0 - Modding\mods\Local_0.0.13\info.json" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="414" startPos="0" endPos="0" selMode="0" lang="Lua" encoding="-1" filename="C:\Users\Ranakastrasz\Desktop\Factorio_0.12.0 - Modding\mods\Local_0.0.13\migrations\Recipe Change.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="414" startPos="0" endPos="0" selMode="0" lang="Lua" encoding="-1" filename="C:\Users\Ranakastrasz\Desktop\Factorio_0.12.0 - Modding\mods\Local_0.0.13\prototypes\entity.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="414" startPos="0" endPos="0" selMode="0" lang="Lua" encoding="-1" filename="C:\Users\Ranakastrasz\Desktop\Factorio_0.12.0 - Modding\mods\Local_0.0.13\prototypes\recipe.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="414" startPos="0" endPos="0" selMode="0" lang="Lua" encoding="-1" filename="C:\Users\Ranakastrasz\Desktop\Factorio_0.12.0 - Modding\mods\Local_0.0.13\prototypes\gun.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="414" startPos="0" endPos="0" selMode="0" lang="Lua" encoding="-1" filename="C:\Users\Ranakastrasz\Desktop\Factorio_0.12.0 - Modding\mods\Local_0.0.13\prototypes\ammo.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="747" startPos="0" endPos="0" selMode="0" lang="Lua" encoding="-1" filename="C:\Users\Ranakastrasz\Desktop\Factorio_0.12.0 - Modding\mods\Local_0.0.13\prototypes\enemy.lua" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
