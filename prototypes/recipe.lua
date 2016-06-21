@@ -11,6 +11,18 @@ data.raw["recipe"]["basic-inserter"].ingredients =
   {"burner-inserter", 1}
 }
 
+data.raw["recipe"]["electronic-circuit"].energy_required = 2 -- 0.5
+data.raw["recipe"]["electronic-circuit"].ingredients = 
+{
+	{"iron-plate", 1},
+	{"copper-cable", 8} -- 3
+}
+--[[data.raw["recipe"]["advanced-oil-processing"].results=
+    {
+      {type="fluid", name="heavy-oil", amount=4},
+      {type="fluid", name="light-oil", amount=4},
+      {type="fluid", name="petroleum-gas", amount=7}
+    }]]--
 --[[data.raw["recipe"]["basic-oil-processing"].subgroup = "fluid"
 data.raw["recipe"]["advanced-oil-processing"].subgroup = "fluid"
 data.raw["recipe"]["heavy-oil-cracking"].subgroup = "fluid"
@@ -38,8 +50,25 @@ data.raw["recipe"]["processing-unit"].ingredients =
   {"advanced-circuit"  , 1}, -- 2
   {type="fluid", name = "sulfuric-acid", amount = 0.5} -- 0.5
 }]]--
-	
-	
+	-- Poles
+data.raw["electric-pole"]["medium-electric-pole"].ingredients =
+    {
+      {"steel-plate", 2},
+      {"copper-cable", 4}
+    }
+data.raw["electric-pole"]["big-electric-pole"].ingredients =
+    {
+      {"steel-plate", 5},
+      {"copper-cable", 10}
+    }
+
+data.raw["electric-pole"]["substation"].ingredients =
+    {
+      {"steel-plate", 10},
+      {"advanced-circuit", 5},
+      {"copper-cable", 20}
+    }
+    
 	-- Furnaces
 data.raw["recipe"]["steel-furnace"].ingredients = 
 {
@@ -52,8 +81,8 @@ data.raw["recipe"]["electric-furnace"].ingredients =
 {
 	{"steel-furnace",1}, -- 10 stone brick
 	{"steel-plate", 8}, -- 15
-	{"electronic-circuit", 2},
-	{"advanced-circuit", 2} -- 5
+	--{"electronic-circuit", 2},
+	{"advanced-circuit", 5} -- 5
 }
 
 --Belts
@@ -96,6 +125,8 @@ data.raw["recipe"]["concrete"].ingredients =
     {"iron-stick", 1},
     {type="fluid", name="water", amount=10}
 }
+data.raw["recipe"]["green-wire"].ingredients = {}
+data.raw["recipe"]["red-wire"].ingredients = {}
 
 --[[
 Speed -> Overclock, Lubricant
